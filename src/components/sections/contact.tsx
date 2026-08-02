@@ -22,7 +22,7 @@ export function Contact() {
 
   async function onSubmit(values: FormValues) {
     setLoading(true);
-    const { error } = await supabase.from("messages").insert(values);
+    const { error } = await supabase.from("contact_messages").insert(values);
     setLoading(false);
 
    if (error) {
