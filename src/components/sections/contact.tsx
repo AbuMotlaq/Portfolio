@@ -41,7 +41,7 @@ export function Contact() {
         <div>
           <SectionHeader eyebrow="07 — Contact" title="Let's build something worth remembering." subtitle="Have a project in mind or just want to say hi? The inbox is open." />
           <div className="mt-10 space-y-3 text-sm">
-            <a href="mailto:hello@example.com" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
+            <a href="mailto:oabumotlaq@gmail.com" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
               <Mail size={16} /> oabumotlaq@gmail.com
             </a>
             <a href="https://github.com/AbuMotlaq" target="_blank" rel="noreferrer" className="flex items-center gap-3 text-muted-foreground hover:text-accent">
